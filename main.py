@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker, Query
 import csv
 
 columns = ('ticker', 'name', 'sector', 'ebitda', 'sales', 'net_profit', 'market_price', 'net_debt', 'assets', 'equity','cash_equivalents', 'liabilities')
-columns_names = ('ticker', 'name', 'sector', 'ebitda', 'sales', 'net profit', 'market price', 'net_debt', 'assets', 'equity','cash equivalents', 'liabilities')
+columns_names = ('ticker', 'name', 'sector', 'ebitda', 'sales', 'net profit', 'market price', 'net debt', 'assets', 'equity','cash equivalents', 'liabilities')
 
 def main_menu():
     print("Welcome to the Investor Program!\n")
